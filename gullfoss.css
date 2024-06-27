@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: serif;
+}
+.esas{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+
+}
+.esas .sol{
+	width: 150px;
+	background: white;
+	height: 100vh;
+	padding: 80px;
+
+
+}
+
+.esas .arxa1{
+	width: 150px;
+	padding: 80px;
+	background: url(sea.jpg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+}
+.esas .sol  h4{
+	padding: 20px 0;
+	position: relative;
+	top: 150px;
+
+}
+.esas .orta {
+	width: 600px;
+	padding: 100px;
+	z-index: 999999999;
+
+}
+
+.esas .orta h1{
+	font-size: 9rem;
+}
+.esas .orta button{
+	padding: 15px;
+	border-top: solid 2px black;
+	margin-top:50px ;
+	background: none;
+}
+.esas .orta .bt{
+	width: 100px;
+	height: 50px;
+	background: lightblue;
+	margin-top: -40px;
+	margin-left: 15px;
+
+
+}
+.esas .orta .asagı{
+	width: 450px;
+	display: flex;
+	margin-top: 150px;
+}
+.esas .orta .asagı h2{
+	padding: 0 10px;
+}
+
+.esas .sağ{
+	width: 200px;
+	background: white;
+	height: 100vh;
+	padding: 80px;
+	margin-left: auto;
+
+
+}
+.esas .sağ   span{
+	font-size: 1.5rem;
+}
+.esas .sağ  h4, span{
+	padding: 60px 0;
+	position: relative;
+	top: 100px;
+
+}
+.esas .sekil1{
+	width: 350px;
+	height: 80vh;
+	position: absolute;
+	right: 350px;
+	background: url(sea.jpg);
+}
+.esas .sekil2{
+	width: 350px;
+	height: 80vh;
+	position: absolute;
+	right: 200px;
+	background: url(sea.jpg);
+	bottom: 0;
+}
